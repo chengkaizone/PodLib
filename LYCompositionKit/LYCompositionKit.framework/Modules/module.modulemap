@@ -1,0 +1,11 @@
+framework module LYCompositionKit {
+  umbrella header "LYCompositionKit.h"
+  export *
+
+  module * { export * }
+}
+
+module LYCompositionKit.Swift {
+  header "LYCompositionKit-Swift.h"
+  requires objc
+}
