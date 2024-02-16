@@ -1,0 +1,11 @@
+framework module Flashback {
+  umbrella header "Flashback.h"
+  export *
+
+  module * { export * }
+}
+
+module Flashback.Swift {
+  header "Flashback-Swift.h"
+  requires objc
+}

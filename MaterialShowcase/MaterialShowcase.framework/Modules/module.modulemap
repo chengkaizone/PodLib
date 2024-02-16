@@ -1,0 +1,11 @@
+framework module MaterialShowcase {
+  umbrella header "MaterialShowcase.h"
+  export *
+
+  module * { export * }
+}
+
+module MaterialShowcase.Swift {
+  header "MaterialShowcase-Swift.h"
+  requires objc
+}

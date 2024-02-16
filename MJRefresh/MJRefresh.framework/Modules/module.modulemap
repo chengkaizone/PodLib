@@ -1,0 +1,11 @@
+framework module MJRefresh {
+  umbrella header "MJRefresh.h"
+  export *
+
+  module * { export * }
+}
+
+module MJRefresh.Swift {
+  header "MJRefresh-Swift.h"
+  requires objc
+}

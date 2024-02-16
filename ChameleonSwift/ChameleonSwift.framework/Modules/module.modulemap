@@ -1,0 +1,11 @@
+framework module ChameleonSwift {
+  umbrella header "ChameleonSwift.h"
+  export *
+
+  module * { export * }
+}
+
+module ChameleonSwift.Swift {
+  header "ChameleonSwift-Swift.h"
+  requires objc
+}

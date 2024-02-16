@@ -1,0 +1,11 @@
+framework module SwiftyStoreKit {
+  umbrella header "SwiftyStoreKit.h"
+  export *
+
+  module * { export * }
+}
+
+module SwiftyStoreKit.Swift {
+  header "SwiftyStoreKit-Swift.h"
+  requires objc
+}

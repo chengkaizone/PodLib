@@ -1,0 +1,11 @@
+framework module NetworkApi {
+  umbrella header "NetworkApi.h"
+  export *
+
+  module * { export * }
+}
+
+module NetworkApi.Swift {
+  header "NetworkApi-Swift.h"
+  requires objc
+}

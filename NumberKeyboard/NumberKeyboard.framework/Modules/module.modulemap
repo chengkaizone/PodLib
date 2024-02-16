@@ -1,0 +1,11 @@
+framework module NumberKeyboard {
+  umbrella header "NumberKeyboard.h"
+  export *
+
+  module * { export * }
+}
+
+module NumberKeyboard.Swift {
+  header "NumberKeyboard-Swift.h"
+  requires objc
+}

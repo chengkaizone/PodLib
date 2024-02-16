@@ -1,0 +1,11 @@
+framework module AdApi {
+  umbrella header "AdApi.h"
+  export *
+
+  module * { export * }
+}
+
+module AdApi.Swift {
+  header "AdApi-Swift.h"
+  requires objc
+}

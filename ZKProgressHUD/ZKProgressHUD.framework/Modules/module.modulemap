@@ -1,0 +1,11 @@
+framework module ZKProgressHUD {
+  umbrella header "ZKProgressHUD.h"
+  export *
+
+  module * { export * }
+}
+
+module ZKProgressHUD.Swift {
+  header "ZKProgressHUD-Swift.h"
+  requires objc
+}

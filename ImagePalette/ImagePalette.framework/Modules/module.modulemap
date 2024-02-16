@@ -1,0 +1,11 @@
+framework module ImagePalette {
+  umbrella header "ImagePalette.h"
+  export *
+
+  module * { export * }
+}
+
+module ImagePalette.Swift {
+  header "ImagePalette-Swift.h"
+  requires objc
+}

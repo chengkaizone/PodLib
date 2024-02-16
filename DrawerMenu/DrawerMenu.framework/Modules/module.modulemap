@@ -1,0 +1,11 @@
+framework module DrawerMenu {
+  umbrella header "DrawerMenu.h"
+  export *
+
+  module * { export * }
+}
+
+module DrawerMenu.Swift {
+  header "DrawerMenu-Swift.h"
+  requires objc
+}

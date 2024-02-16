@@ -1,0 +1,11 @@
+framework module Evaluator {
+  umbrella header "Evaluator.h"
+  export *
+
+  module * { export * }
+}
+
+module Evaluator.Swift {
+  header "Evaluator-Swift.h"
+  requires objc
+}
