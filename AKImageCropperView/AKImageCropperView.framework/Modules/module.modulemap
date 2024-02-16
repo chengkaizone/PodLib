@@ -1,0 +1,11 @@
+framework module AKImageCropperView {
+  umbrella header "AKImageCropperView.h"
+  export *
+
+  module * { export * }
+}
+
+module AKImageCropperView.Swift {
+  header "AKImageCropperView-Swift.h"
+  requires objc
+}

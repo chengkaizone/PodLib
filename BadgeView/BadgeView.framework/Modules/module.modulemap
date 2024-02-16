@@ -1,0 +1,11 @@
+framework module BadgeView {
+  umbrella header "BadgeView.h"
+  export *
+
+  module * { export * }
+}
+
+module BadgeView.Swift {
+  header "BadgeView-Swift.h"
+  requires objc
+}

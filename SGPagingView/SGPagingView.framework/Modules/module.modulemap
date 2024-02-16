@@ -1,0 +1,11 @@
+framework module SGPagingView {
+  umbrella header "SGPagingView.h"
+  export *
+
+  module * { export * }
+}
+
+module SGPagingView.Swift {
+  header "SGPagingView-Swift.h"
+  requires objc
+}
