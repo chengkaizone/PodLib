@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>0</integer>
+	<key>package</key>
+	<array>
+        <dict>
+            <key>id</key>
+            <string>com.tl.spoof</string>
+            <key>display_only</key>
+            <integer>0</integer>
+            <key>version</key>
+            <integer>0</integer>
+        </dict>
+		<dict>
+			<key>id</key>
+			<string>com.xf.kate</string>
+			<key>display_only</key>
+			<integer>0</integer>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>com.xuyi.funny</string>
+			<key>display_only</key>
+			<integer>0</integer>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>com.xuyi.love</string>
+			<key>display_only</key>
+			<integer>0</integer>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>com.xuyi.birthday</string>
+			<key>display_only</key>
+			<integer>0</integer>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

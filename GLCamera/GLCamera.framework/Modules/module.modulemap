@@ -1,0 +1,11 @@
+framework module GLCamera {
+  umbrella header "GLCamera.h"
+  export *
+
+  module * { export * }
+}
+
+module GLCamera.Swift {
+  header "GLCamera-Swift.h"
+  requires objc
+}

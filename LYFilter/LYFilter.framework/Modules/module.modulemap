@@ -1,0 +1,11 @@
+framework module LYFilter {
+  umbrella header "LYFilter.h"
+  export *
+
+  module * { export * }
+}
+
+module LYFilter.Swift {
+  header "LYFilter-Swift.h"
+  requires objc
+}

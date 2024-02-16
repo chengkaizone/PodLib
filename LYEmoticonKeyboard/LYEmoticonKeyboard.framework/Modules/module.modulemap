@@ -1,0 +1,11 @@
+framework module LYEmoticonKeyboard {
+  umbrella header "LYEmoticonKeyboard.h"
+  export *
+
+  module * { export * }
+}
+
+module LYEmoticonKeyboard.Swift {
+  header "LYEmoticonKeyboard-Swift.h"
+  requires objc
+}

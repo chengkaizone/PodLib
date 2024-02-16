@@ -1,0 +1,11 @@
+framework module YLPhotoBrowser {
+  umbrella header "YLPhotoBrowser.h"
+  export *
+
+  module * { export * }
+}
+
+module YLPhotoBrowser.Swift {
+  header "YLPhotoBrowser-Swift.h"
+  requires objc
+}
