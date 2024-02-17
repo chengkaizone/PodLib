@@ -44,8 +44,7 @@ public class LYImageFilter: OperationGroup {
      * 加载bundle中的滤镜处理图片
      **/
     public class func pictureInput(name: String) ->PictureInput {
-        
-        guard let bundlePath = Bundle.main.path(forResource: "CustomResource", ofType: "bundle"), let filterImageBundle = Bundle(path: bundlePath), let path = filterImageBundle.path(forResource: name, ofType: "png"), let image = UIImage(contentsOfFile: path) else {
+        guard let bundlePath = Bundle(for: TestBundle().classForCoder).path(forResource: "CustomResource", ofType: "bundle"), let filterImageBundle = Bundle(path: bundlePath), let path = filterImageBundle.path(forResource: name, ofType: "png"), let image = UIImage(contentsOfFile: path) else {
             return PictureInput(imageName: "")
         }
         

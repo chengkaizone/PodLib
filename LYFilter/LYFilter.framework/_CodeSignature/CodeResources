@@ -172,13 +172,25 @@
 		<data>
 		AVWmQ8XiEu6ubaFS6CcO0iDzOpA=
 		</data>
+		<key>Frameworks/GPUImage.framework/GPUImage</key>
+		<data>
+		uuUPHiglhTPUGQ7Fv5QccXahbOw=
+		</data>
+		<key>Frameworks/GPUImage.framework/Info.plist</key>
+		<data>
+		xsY55brMAf4rt/MMWrscaE1P4tU=
+		</data>
+		<key>Frameworks/GPUImage.framework/_CodeSignature/CodeResources</key>
+		<data>
+		EMpS1XXBW7pj94MNbBg/Xn74dL0=
+		</data>
 		<key>Headers/CustomShader_GLES.swift</key>
 		<data>
 		DnslpJ+XUDjtBh5QHSnIVKCi/MM=
 		</data>
 		<key>Headers/LY1977Filter.swift</key>
 		<data>
-		MiIb++tnuvKUZFoL/BkK1rl7+FU=
+		Qv0SvZ5zAYBAm31zCNCve+qPtyY=
 		</data>
 		<key>Headers/LYAmaroFilter.swift</key>
 		<data>
@@ -214,7 +226,7 @@
 		</data>
 		<key>Headers/LYImageFilter.swift</key>
 		<data>
-		veV0VwMEVwNxvdX48PwC3mglNro=
+		y1Ut7OjYeyrDSyONYkSnQ9SOolE=
 		</data>
 		<key>Headers/LYInkwellFilter.swift</key>
 		<data>
@@ -270,7 +282,7 @@
 		</data>
 		<key>Modules/LYFilter.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		/rWxuYY/4yd+fC/g8LNAI2O+V6g=
+		CQYWL2VkI3oq0Zrp7g40f564N10=
 		</data>
 		<key>Modules/LYFilter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -278,11 +290,11 @@
 		</data>
 		<key>Modules/LYFilter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		05ODBcGNSmcRRtm0fNlhjVetGO0=
+		9nk8mIltHhUf/PgUbjbTI1VmKhk=
 		</data>
 		<key>Modules/LYFilter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AeZB8fRrXvuMyNiphm+9yHvni1w=
+		ujeAvXfa18R8RF9MfPGvuWJm+Kk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -585,6 +597,27 @@
 			BvEJGlrjdNn9mRpR+qtAGdtvCksEFbdAU3NXSpGAsOw=
 			</data>
 		</dict>
+		<key>Frameworks/GPUImage.framework/GPUImage</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MmHj3aIS1HYT4G4yZ2nBapqXssQ55zAd9Ip3ezMfNeQ=
+			</data>
+		</dict>
+		<key>Frameworks/GPUImage.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iD2oO5Lg0g5oIt9JMOObISp6NfTC6Ctnh61ChyB3xfs=
+			</data>
+		</dict>
+		<key>Frameworks/GPUImage.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4RT6WwocrETHkytbnNs7j1kSqSXSBk82yVn6DYvvcqI=
+			</data>
+		</dict>
 		<key>Headers/CustomShader_GLES.swift</key>
 		<dict>
 			<key>hash2</key>
@@ -596,7 +629,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ywvG4v3PjLYlfXiSEL4o+ZwxFnQR+k+zV9SyEmc2xrM=
+			9lsMiQz0UYov1YGRFQO/PEV3GL7GRJqGf8K1DMTMnbI=
 			</data>
 		</dict>
 		<key>Headers/LYAmaroFilter.swift</key>
@@ -659,7 +692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0yNsC31672ZoevRX/w8609zLXANdg4f9Jq2+sUs9F2U=
+			fpqTBCehpZysWZkEPJvh5mLmvpF9wWy+yJ7hPPv6Rq0=
 			</data>
 		</dict>
 		<key>Headers/LYInkwellFilter.swift</key>
@@ -750,7 +783,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJzB+e6ffujdAXam6ry7qa0Z34ygCtDfIkyli5kjVN4=
+			wL1ECWrLQc+Z/PcxgnUeHE2Kms73g/4eWO88xjP04tI=
 			</data>
 		</dict>
 		<key>Modules/LYFilter.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -764,14 +797,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0SXw9uHl9SxsLN8Wg+t9gxFopEjAJpmD6cawiLmHNAo=
+			AY2ddWNu9nlwWWm3wRHz4V7qKgt71Sg6hORy6P6RCvc=
 			</data>
 		</dict>
 		<key>Modules/LYFilter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWS4PFDG/m+vlWj62qZqV1Wl/DU7Q1GBdMWJyC2lEOg=
+			OjdgJZ5rE/Q7hXDh1DR7LeZec/siPDnMGT5rAmZd/1M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
